@@ -1,0 +1,17 @@
+CQ,Layer,Question,Status,Result Count
+CQ-01,Layer 1 — Semantic,Which OWL class maps to the Sui Move grammar rule function_def?,PASS,1
+CQ-02,Layer 1 — Semantic,What types of expressions are defined in the Sui Move semantic model?,PASS,24
+CQ-03,Layer 1 — Semantic,What are the ownership types of a Sui Move object?,PASS,4
+CQ-04,Layer 1 — Semantic,What function visibility modifiers are defined in the ontology?,PASS,3
+CQ-05,Layer 2 — SUWC,What are all vulnerability defects defined in the SUWC taxonomy?,PASS,13
+CQ-06,Layer 2 — SUWC,Which vulnerability defects are classified as CRITICAL severity?,PASS,7
+CQ-07,Layer 2 — SUWC,What vulnerability category does SUWC-AUTH-02 (Capability Leakage) belong to?,PASS,1
+CQ-08,Layer 2 — SUWC,Which security operations indicate a defect risk for SUWC-AUTH-01?,PASS,2
+CQ-09,Layer 2 — SUWC,Which security operations mitigate SUWC-TIME-01 (Premature Release)?,PASS,1
+CQ-10,Layer 3a — Patterns,What business logic patterns address SUWC-AUTH-01?,PASS,1
+CQ-11,Layer 3a — Patterns,Which defects does the AccessControlPattern address?,PASS,4
+CQ-12,Layer 3b — Techniques,What Sui Move implementation techniques realize the AccessControlPattern?,PASS,3
+CQ-13,Layers 2-3 — Full Chain,What is the full chain from vulnerability defect to pattern to technique?,PASS,28
+CQ-14,Layer 5 — Verification,What formal specification clause types are defined in the Move Prover layer?,PASS,8
+CQ-15,Layers 1-2 — Cross-Layer,Is requiresAccessControl defined for functions (semantic detection flag)?,PASS,1
+CQ-16,Layers 1-2 — Cross-Layer,"Is performsOperation defined, enabling function-to-SecurityOperation linking?",PASS,1
