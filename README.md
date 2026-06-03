@@ -156,6 +156,15 @@ This repository is released under the [MIT License](LICENSE) for the software co
 
 ---
 
+
+## Publications
+
+- **Antonios Giatzis, Christos K. Georgiadis, Georgios Digkas**, “*A comparative analysis of ethereum solidity and sui move smart contract languages: Advantages and trade-offs*”, 6th World Symposium on Communication Engineering (WSCE), 2023.
+- **Antonios Giatzis et al.**, “*Software Engineering Practices in Smart Contract Development: A Systematic Mapping Study*”, 25th International Conference on Product-Focused Software Process Improvement (PROFES), 2024.
+- **Antonios Giatzis, Stamatis Papangelou, Christos K Georgiadis**, “*A Comparative Study of Solidity and Sui Move: Advancing Smart Contract Development*”, IEEE Access, 2025.
+- **Antonios Giatzis, Christos K Georgiadis**, “*A Pattern-Oriented Ontology and Workflow Modeling Approach for the Sui Move Programming Language*”, Information, 2025.
+
+---
 <p align="center">
   <i>This research is conducted as part of a doctoral dissertation at the University of Macedonia, Thessaloniki.</i>
 </p>
