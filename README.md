@@ -100,13 +100,13 @@ python -m pip install streamlit rdflib
 ### Running the Analyzer
 
 ```bash
-# Run the comprehensive Sui Move analyzer
+# Run the comprehensive Sui Move analyzer to see if running properly
 python Comprehensive_Sui_Analyzer.py
 
 # Run the evaluation test suite (42 tests)
 python 42_tests.py
 
-# Launch the Streamlit defense dashboard
+# Launch the Streamlit dashboard to use the analyzer
 python -m streamlit run Defense_App.py
 ```
 
@@ -114,7 +114,7 @@ python -m streamlit run Defense_App.py
 
 ## Ontology Design
 
-The core ontology (`sui_move_vulnerability.ttl`) is authored in **OWL 2 DL** and serialized as Turtle (TTL). It defines:
+The core ontology is authored in **OWL 2 DL** and serialized as Turtle (TTL). It defines:
 
 - **Concept hierarchy**: `VulnerabilityClass` → specific vulnerability types
 - **Object properties**: `hasPattern`, `triggeredBy`, `affectsObject`, `requiresCapability`
