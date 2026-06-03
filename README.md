@@ -134,7 +134,6 @@ The ontology is validated using Protégé's HermiT reasoner to ensure consistenc
 | Query Language | SPARQL 1.1 |
 | Ontology Editor | Protégé + HermiT Reasoner |
 | RDF Store / Reasoner | `rdflib` (Python) |
-| Static Analysis | Custom AST parser (Python) |
 | Behavioral Modeling | OC-DCR graph library (Python) |
 | Dashboard | Streamlit |
 | Version Control | Git / GitHub |
