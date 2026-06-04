@@ -58,7 +58,7 @@ For detailed descriptions of the analyzer's features and capabilities, see the [
                             │
                             ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                     Analysis Engine                          │
+│                     Analysis Engine                          
 │   AST Parsing · Regex Pattern Matching · Control Flow Extraction    │
 └───────────────────────────┬─────────────────────────────────────────┘
                             │
