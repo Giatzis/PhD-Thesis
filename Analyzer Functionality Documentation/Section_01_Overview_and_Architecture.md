@@ -52,7 +52,7 @@ from Automated_Fix_Suggester import (
 )
 ```
 
-The analyzer is not a monolith — it delegates two major tasks to separate companion modules:
+The analyzer delegates two major tasks to separate companion modules:
 
 - **`DCR_Graph_Generator`**: Generates Dynamic Condition Response (DCR) process graphs from detected patterns. A DCR graph is a formal behavioral model showing the lifecycle of events and their constraints (e.g., "pause must happen before execute can occur").
 
