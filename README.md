@@ -46,6 +46,8 @@ This thesis follows the **Design Science Research** paradigm, structured around 
 
 ---
 
+For detailed descriptions of the analyzer's features and capabilities, see the [Analyzer Functionality Documentation](./Analyzer%20Functionality%20Documentation).
+
 ## Framework Architecture
 
 ```
@@ -78,7 +80,6 @@ This thesis follows the **Design Science Research** paradigm, structured around 
 │   Classified Findings · SPARQL Query Results · Streamlit Dashboard  │
 └─────────────────────────────────────────────────────────────────────┘
 ```
-
 ---
 
 ## Getting Started
@@ -109,7 +110,6 @@ python 42_tests.py
 # Launch the Streamlit dashboard to use the analyzer
 python -m streamlit run Defense_App.py
 ```
-
 ---
 
 ## Ontology Design
