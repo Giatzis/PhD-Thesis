@@ -48,38 +48,7 @@ This thesis follows the **Design Science Research** paradigm, structured around 
 
 For detailed descriptions of the analyzer's features and capabilities, see the [Analyzer Functionality Documentation](./Analyzer%20Functionality%20Documentation).
 
-## Framework Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                   Smart Contract Input Layer                        │
-│          Sui Move source files (.move) / bytecode                   │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                     Analysis Engine                          
-│   AST Parsing · Regex Pattern Matching · Control Flow Extraction    │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                  Semantic Representation Layer                       │
-│   OWL/RDF Ontology · SPARQL Reasoning · RDF Triple Store            │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│               Behavioral Modeling Layer (DCR Graphs)                │
-│   OC-DCR Graph Generation · Temporal Pattern Detection              │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                    Vulnerability Report Layer                        │
-│   Classified Findings · SPARQL Query Results · Streamlit Dashboard  │
-└─────────────────────────────────────────────────────────────────────┘
-```
 ---
 
 ## Getting Started
