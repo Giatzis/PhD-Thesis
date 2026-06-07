@@ -36,7 +36,7 @@ This thesis follows the **Design Science Research** paradigm, structured around 
 
 | DSR Phase | Activity in This Research |
 |---|---|
-| Problem Identification | Systematic literature review of Sui Move security |
+| Problem Identification | Systematic literature review of smart contracts security and vulnerability landscape |
 | Objectives Definition | Formal specification of vulnerability classes and detection requirements |
 | Design & Development | Ontology engineering (OWL/RDF), pattern library, detection engine implementation |
 | Demonstration | Application to a constructed dataset of Sui Move smart contracts |
