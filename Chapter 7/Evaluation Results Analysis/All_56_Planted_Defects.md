@@ -197,7 +197,7 @@ These are behavioral defects planted inside executable logic (e.g., missing capa
 
 > *\*51 detected instances collapse to 50 TPs under the single-unit principle (compound_and_restake carries two co-firing defects merged into one TP unit).*
 
-### The 5 Planted FN Instances
+### The 5 FN Instances
 
 | FN# | Contract | Target | Expected Defect | Root Cause |
 |-----|----------|--------|-----------------|------------|
