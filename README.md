@@ -56,7 +56,6 @@ For detailed descriptions of the analyzer's features and capabilities, see the [
 ### Prerequisites
 
 - Python 3.10+
-- [Protégé](https://protege.stanford.edu/) (optional, for ontology inspection)
 
 ### Installation
 
